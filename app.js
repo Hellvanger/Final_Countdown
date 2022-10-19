@@ -1,9 +1,4 @@
-// Name: Mohammad Sangare
-// NSID: Mos718
-// ID: 11293047
-// Instructor name: Madison Klarkowski
-// Couse name: CMPT 281
-// Section number: 01
+
 
 //from here we import days, hours, minutes and second to js
 const days = document.getElementById("days");
