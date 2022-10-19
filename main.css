@@ -1,0 +1,114 @@
+/*// Name: Mohammad Sangare*/
+/*// NSID: Mos718*/
+/*// ID: 11293047*/
+/*// Instructor name: Madison Klarkowski*/
+/*// Couse name: CMPT 281*/
+/*// Section number: 01*/
+
+/*@keyframes animation {*/
+/*    from {background: darkgoldenrod;}*/
+/*    to {}*/
+/*}*/
+
+/*main body*/
+body{
+    text-align: center;
+    /*-webkit-text-fill-color: black;*/
+    margin: 0;
+    /*animation-name: animation;*/
+    /*animation-duration: 60s;*/
+    background: url(https://i.ytimg.com/vi/dmg3nNmEd3I/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: antiquewhite;
+    background-position-y: initial;
+    
+    height: auto;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/*This for the heading h1 to display "It's the final countdown"*/
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+
+}
+
+/*countdown*/
+.countdown {
+    display: flex;
+    font-weight: normal;
+    transition-duration: 2s;
+    transition-delay: 1s;
+
+
+
+}
+
+
+.time {
+
+    background-color: transparent;
+    box-shadow: transparent;
+    /*text-decoration-color: tomato;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+/*here is for the display texts days hours minutes seconds*/
+.time small{
+    background-color: ghostwhite;
+    box-shadow: 0 0 3px ghostwhite;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*this for the countdown */
+.time h2 {
+    font-weight: bold;
+    font-size: 95px;
+    line-height: 2;
+    margin: 0 0 5px;
+}
+
+/*this is great, it is used in media queries to apply different styles for different media types/devices*/
+@media (max-width: 500px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .time h2 {
+        margin: 5px;
+
+    }
+
+    .time small {
+        font-size: 10px;
+    }
+}
+/*#timer {*/
+/*    font-size: 3em;*/
+/*    font-weight: 100;*/
+/*    color: white;*/
+/*    text-shadow: 0 0 20px #48c8ff;*/
+/*}*/
+
+/*#timer div {*/
+/*    display: inline-block;*/
+/*    min-width: 90px;*/
+/*}*/
+
+/*#timer div span {*/
+/*    color: #b1cdf1;*/
+/*    display: block;*/
+/*    font-size: 0.35em;*/
+/*    font-weight: 400;*/
+/*}*/
