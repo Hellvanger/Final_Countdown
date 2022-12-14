@@ -9,7 +9,7 @@ const seconds = document.getElementById("seconds");
 //from here we set the final countdown Date like importing it
 //I guess this is the closes Date for final to start
 //since it starts in between 8th - 23rd of December 2022
-const finalCountdown = new Date('December 08, 2022 15:37:25').getTime();
+const finalCountdown = new Date('December 08, 2023 15:37:25').getTime();
 
 
 
